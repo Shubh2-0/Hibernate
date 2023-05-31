@@ -11,7 +11,7 @@
 <dependency>
     <groupId>org.hibernate</groupId>
     <artifactId>hibernate-core</artifactId>
-    <version>6.2.0.Final</version>
+    <version>5.4.5.Final</version>
     <type>pom</type>
 </dependency>
 

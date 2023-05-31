@@ -1,31 +1,30 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.masai</groupId>
-  <artifactId>Sample-1</artifactId>
+  <artifactId>Sample2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
   <dependencies>
-	  
-	  
-	  <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
-<dependency>
-    <groupId>org.hibernate</groupId>
-    <artifactId>hibernate-core</artifactId>
-    <version>5.4.5.Final</version>
-    <type>pom</type>
-</dependency>
-
-<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+	 
+	 <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 <dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
     <version>8.0.32</version>
 </dependency>
 
-
+	  
+	  <!-- https://mvnrepository.com/artifact/org.hibernate.javax.persistence/hibernate-jpa-2.0-api -->
+<dependency>
+    <groupId>org.hibernate.javax.persistence</groupId>
+    <artifactId>hibernate-jpa-2.0-api</artifactId>
+    <version>1.0.1.Final</version>
+</dependency>
+	  
+	  
+	  
 	  
   </dependencies>
-  
   
   
 </project>
