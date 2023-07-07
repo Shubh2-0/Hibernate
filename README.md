@@ -7,7 +7,7 @@ Welcome to the Hibernate Repository! This repository contains two projects: **sa
 The **sample-1** project showcases the fundamentals of Hibernate and provides a basic example to get you started. It includes various features such as entity mapping, CRUD operations, and querying using Hibernate Query Language (HQL). Feel free to explore the code and see how Hibernate simplifies database interactions in Java applications.
 
 ## 📁 Sample-2
-
+ 
 The **sample-2** project expands on the concepts covered in **sample-1** and delves into more advanced features of Hibernate. It demonstrates techniques like inheritance mapping, associations (one-to-one, one-to-many, many-to-one, and many-to-many), caching, and transactions. By studying this project, you will gain a deeper understanding of Hibernate and its capabilities.
 
 ## 📖 Installation and Setup
