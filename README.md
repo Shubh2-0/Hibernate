@@ -1,65 +1,181 @@
-# Hibernate Repository
+<div align="center">
 
-Welcome to the Hibernate Repository! This repository contains two projects: **sample-1** and **sample-2**. These projects demonstrate the usage and implementation of Hibernate, a popular Java-based ORM (Object-Relational Mapping) framework.
+# 🗄️ Hibernate ORM Learning Repository
 
-## 📁 Sample-1
+[![GitHub stars](https://img.shields.io/github/stars/Shubh2-0/Hibernate?style=for-the-badge&logo=github&color=yellow)](https://github.com/Shubh2-0/Hibernate/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Shubh2-0/Hibernate?style=for-the-badge&logo=github&color=blue)](https://github.com/Shubh2-0/Hibernate/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/Shubh2-0/Hibernate?style=for-the-badge&logo=github&color=red)](https://github.com/Shubh2-0/Hibernate/issues)
 
-The **sample-1** project showcases the fundamentals of Hibernate and provides a basic example to get you started. It includes various features such as entity mapping, CRUD operations, and querying using Hibernate Query Language (HQL). Feel free to explore the code and see how Hibernate simplifies database interactions in Java applications.
+<img src="https://hibernate.org/images/hibernate-logo.svg" alt="Hibernate Logo" width="300"/>
 
-## 📁 Sample-2
- 
-The **sample-2** project expands on the concepts covered in **sample-1** and delves into more advanced features of Hibernate. It demonstrates techniques like inheritance mapping, associations (one-to-one, one-to-many, many-to-one, and many-to-many), caching, and transactions. By studying this project, you will gain a deeper understanding of Hibernate and its capabilities.
+### Master Java Persistence with Hibernate ORM Framework
 
-## 📖 Installation and Setup
+*A comprehensive collection of Hibernate projects covering fundamentals to advanced ORM concepts*
 
-To set up the projects locally, follow these steps:
+[Explore Projects](#-projects) · [Get Started](#-getting-started) · [Contribute](#-contributing)
 
-1. Clone the repository using the following command:
+</div>
 
-   ```
-   git clone https://github.com/Shubh2-0/Hibernate.git
-   ```
+---
 
-2. Ensure you have Java and Maven installed on your machine.
+## 📖 Table of Contents
 
-3. Open each project separately in your preferred IDE (such as IntelliJ IDEA or Eclipse).
+- [About](#-about)
+- [Projects](#-projects)
+- [Technologies](#-technologies)
+- [Getting Started](#-getting-started)
+- [Learning Path](#-learning-path)
+- [Contributing](#-contributing)
+- [Contact](#-contact)
 
-4. Resolve the project dependencies using Maven. The required dependencies are already specified in the `pom.xml` files.
+---
 
-5. Configure the database connection details in the `hibernate.cfg.xml` file for each project. You can use your preferred database (e.g., MySQL, PostgreSQL, or H2) and modify the connection settings accordingly.
+## 🎯 About
 
-6. Build and run the projects. The necessary scripts and instructions can be found within each project's README file.
+This repository serves as a **complete learning resource** for mastering **Hibernate ORM** (Object-Relational Mapping) in Java. Whether you're a beginner looking to understand the basics of database persistence or an experienced developer exploring advanced mapping techniques, this repository has you covered.
 
-## 🤝 Contribution
+### What You'll Learn
 
-Contributions are welcome! If you have any improvements, bug fixes, or new features to add, please follow these steps:
+- ✅ **Entity Mapping** - Map Java objects to database tables
+- ✅ **CRUD Operations** - Create, Read, Update, Delete with Hibernate
+- ✅ **HQL Queries** - Hibernate Query Language fundamentals
+- ✅ **Association Mappings** - One-to-One, One-to-Many, Many-to-Many
+- ✅ **Inheritance Mapping** - Table per class, Single table, Joined strategies
+- ✅ **Caching Mechanisms** - First-level and second-level cache
+- ✅ **Transaction Management** - ACID properties implementation
 
-1. Fork the repository.
+---
 
-2. Create a new branch for your feature or bug fix.
+## 📁 Projects
 
-3. Make the necessary changes and commit them.
+### 🔰 Sample-1: Hibernate Fundamentals
 
-4. Push your changes to your forked repository.
+The foundational project covering essential Hibernate concepts:
 
-5. Submit a pull request to the main repository, explaining the changes you've made.
+| Topic | Description |
+|-------|-------------|
+| Entity Mapping | Basic @Entity, @Table, @Column annotations |
+| Session Factory | Configuration and session management |
+| CRUD Operations | Persist, merge, remove, and find operations |
+| HQL Basics | Simple queries using Hibernate Query Language |
 
+### 🚀 Sample-2: Advanced Hibernate Concepts
+
+Deep dive into complex Hibernate features:
+
+| Topic | Description |
+|-------|-------------|
+| Association Mapping | @OneToOne, @OneToMany, @ManyToMany |
+| Inheritance Strategies | SINGLE_TABLE, TABLE_PER_CLASS, JOINED |
+| Cascade Operations | CascadeType.ALL, PERSIST, MERGE |
+| Fetch Strategies | FetchType.LAZY vs FetchType.EAGER |
+
+---
+
+## 🛠️ Technologies
+
+<div align="center">
+
+| Technology | Version | Purpose |
+|:----------:|:-------:|:-------:|
+| <img src="https://skillicons.dev/icons?i=java" width="40"/> | 8+ | Programming Language |
+| <img src="https://skillicons.dev/icons?i=hibernate" width="40"/> | 5.4.5 | ORM Framework |
+| <img src="https://skillicons.dev/icons?i=mysql" width="40"/> | 8.0+ | Database |
+| <img src="https://skillicons.dev/icons?i=maven" width="40"/> | 3.6+ | Build Tool |
+
+</div>
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Java JDK 8+** installed
+- **Maven** installed
+- **MySQL Server** running
+- **IDE** (IntelliJ IDEA / Eclipse recommended)
+
+### Installation
+
+1️⃣ **Clone the repository**
+```bash
+git clone https://github.com/Shubh2-0/Hibernate.git
+cd Hibernate
+```
+
+2️⃣ **Create MySQL Database**
+```sql
+CREATE DATABASE hibernate_learning;
+```
+
+3️⃣ **Configure Database Connection**
+
+Update hibernate.cfg.xml in each project with your credentials.
+
+4️⃣ **Build and Run**
+```bash
+cd Sample-1
+mvn clean install
+```
+
+---
+
+## 📚 Learning Path
+
+```
+📌 Start Here
+      │
+      ▼
+┌─────────────────┐
+│   Sample-1      │ ──► Entity Mapping ──► Session Factory ──► CRUD
+│   (Basics)      │
+└────────┬────────┘
+         │
+         ▼
+┌─────────────────┐
+│   Sample-2      │ ──► Associations ──► Inheritance ──► Caching
+│   (Advanced)    │
+└────────┬────────┘
+         │
+         ▼
+    🎉 Master Level!
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions make the open-source community amazing! Here's how you can help:
+
+1. **Fork** the repository
+2. **Create** your feature branch
+3. **Commit** your changes
+4. **Push** to the branch
+5. **Open** a Pull Request
+
+---
 
 ## 📬 Contact
 
-If you want to contact me, you can reach me through below handles.
+<div align="center">
 
- <p align="left">
-  <a href="https://www.linkedin.com/in/bhatishubham/" target="_blank"><img align="center" src="https://skillicons.dev/icons?i=linkedin" width="40px" alt="linkedin" /></a>&emsp;
-  <a title="shubhambhati226@gmail.com" href="mailto:shubhambhati226@gmail.com" target="_blank"><img align="center"  src="https://cdn-icons-png.flaticon.com/128/888/888853.png"  width="40px"   alt="mail-me" /></a>&emsp;
-  <a href="https://wa.me/+916232133187" target="blank"><img align="center" src="https://media2.giphy.com/media/Q8I2fYA773h5wmQQcR/giphy.gif" width="40px"  alt="whatsapp-me" /></a>&emsp;
-<a href="https://www.hackerrank.com/shubhambhati226?hr_r=1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" width="40px"  alt="whatsapp-me" /></a>&emsp; 
-		
-	
-	
+**Shubham Bhati** - Java Developer
 
- </p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubham-bhati-787319213/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shubhambhati226@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+916232133187)
 
-Feel free to explore the repository and enjoy your journey into the world of Hibernate! If you have any questions or need assistance, please don't hesitate to reach out.
+</div>
 
+---
 
+<div align="center">
+
+### ⭐ Star this repository if it helped you learn Hibernate!
+
+**Keywords:** Hibernate Java ORM JPA MySQL Database CRUD Entity-Mapping Spring Backend
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer"/>
+
+</div>
